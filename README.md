@@ -8,8 +8,8 @@
 * 编译器:g++ 5.4.0
 
 ## 运行方法
-cd MyWebServer/code
-make
+cd MyWebServer/code  
+make  
 ./Server  [-p   port]   [-b   backlog]   [-o   timeout]   [-t   threadNum]   [-r   filePath]
 
 ## 代码统计
@@ -26,3 +26,4 @@ make
 | :-----------------------: | :-----------------------: | :-----------------------: |
 | [项目目的](https://github.com/WFan99/MyWebServer/blob/master/doc/%E9%A1%B9%E7%9B%AE%E7%9B%AE%E7%9A%84.md) | [设计结构]( https://github.com/WFan99/MyWebServer/blob/master/doc/%E8%AE%BE%E8%AE%A1%E7%BB%93%E6%9E%84.md) | [并发测试]( https://github.com/WFan99/MyWebServer/blob/master/doc/%E5%B9%B6%E5%8F%91%E6%B5%8B%E8%AF%95.md ) |
 
+目前该项目持续挂在阿里云服务器: http://39.106.127.236:4000/ 上，您可以随时访问
