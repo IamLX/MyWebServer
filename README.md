@@ -24,11 +24,5 @@ make
 
 |         项目目的          |         设计结构          |         并发测试          |
 | :-----------------------: | :-----------------------: | :-----------------------: |
-| [项目目的](https://github.com/WFan99/MyWebServer/blob/master/doc/%E9%A1%B9%E7%9B%AE%E7%9B%AE%E7%9A%84.md) | [设计结构]( [https://github.com/WFan99/MyWebServer/blob/master/doc/%E8%AE%BE%E8%AE%A1%E7%BB%93%E6%9E%84.md](https://github.com/WFan99/MyWebServer/blob/master/doc/设计结构.md) ) | [并发测试]( [https://github.com/WFan99/MyWebServer/blob/master/doc/%E5%B9%B6%E5%8F%91%E6%B5%8B%E8%AF%95.md](https://github.com/WFan99/MyWebServer/blob/master/doc/并发测试.md) ) |
-
-
-
-
-
-
+| [项目目的](https://github.com/WFan99/MyWebServer/blob/master/doc/%E9%A1%B9%E7%9B%AE%E7%9B%AE%E7%9A%84.md) | [设计结构]( https://github.com/WFan99/MyWebServer/blob/master/doc/%E8%AE%BE%E8%AE%A1%E7%BB%93%E6%9E%84.md) | [并发测试]( https://github.com/WFan99/MyWebServer/blob/master/doc/%E5%B9%B6%E5%8F%91%E6%B5%8B%E8%AF%95.md ) |
 
