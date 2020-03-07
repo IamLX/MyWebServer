@@ -16,7 +16,7 @@ make
 
 
 
-![codePic](codePic.png)
+![codePic]( https://github.com/WFan99/MyWebServer/blob/master/doc/codePic.png )
 
 
 
