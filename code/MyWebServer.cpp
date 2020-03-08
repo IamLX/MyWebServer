@@ -97,7 +97,6 @@ void MyWebServer::run()
 				else if( event.events & ( EPOLLRDHUP | EPOLLHUP | EPOLLERR ))
 				{
 					//出错，关闭fd的连接
-					cout<<"-----"<<1<<endl;
 					eventCon->GetTimer()->SetInvalid();
 					eventCon->SetWorking(false);
 					CloseConnection(eventCon);
@@ -194,17 +193,6 @@ void MyWebServer::HttpRecv(HttpConnect *con)
 //发送数据
 void MyWebServer::HttpSend(HttpConnect* con)
 {
-	/*
-	char sendBuff[520]="HTTP/1.1 200 ok\r\nconnection: close\r\n\r\n";
-	int s=send(con->GetFd(),sendBuff,strlen(sendBuff),0);
-	if(s<0)
-	{
-		cout<<"fail"<<endl;
-	}
-	int fd=open("hello.html",O_RDONLY);
-	sendfile(con->GetFd(),fd,nullptr,2500);
-//	CloseConnection(con);
-//	*/
 	con->GetTimer()->SetInvalid();
 	HttpConnect::RetCode ret=con->WriteSock();
 	//非EAGAIN
