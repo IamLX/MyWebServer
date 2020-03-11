@@ -8,9 +8,9 @@
 * 编译器:g++ 5.4.0
 
 ## 运行方法
-cd MyWebServer/code
-make
-./Server  [-p   port]   [-b   backlog]   [-o   timeout]   [-t   threadNum]   [-r   filePath]
+* cd MyWebServer/code
+* make 
+* ./Server  [-p   port]   [-b   backlog]   [-o   timeout]   [-t   threadNum]   [-r   filePath] 
 
 ## 代码统计
 
